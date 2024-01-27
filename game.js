@@ -161,7 +161,10 @@ const scissors = document.getElementById('scissors-logo')
     }
     else if(score_comp == 5){
         player.innerHTML = "Comp"
-        overlay.classList.add('active')
+        overlay.classList.add('active')     
+        rock.style.display = 'none'
+        paper.style.display = 'none'
+        scissors.style.display = 'none'
     }
 }
 
