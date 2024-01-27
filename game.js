@@ -15,9 +15,6 @@ const scissors = document.getElementById('scissors-logo')
  let score_you = 0
  let score_comp = 0
 
- 
-
-
 
 
 
@@ -57,12 +54,17 @@ const scissors = document.getElementById('scissors-logo')
     if(score_you == 5){
         player.innerHTML = 'You'
         overlay.classList.add('active')
-    
+        rock.style.display = 'none'
+        paper.style.display = 'none'
+        scissors.style.display = 'none'    
         
     }
     else if(score_comp == 5){
         player.innerHTML = 'Comp'
-        overlay.classList.add('active')
+        overlay.classList.add('active') 
+        rock.style.display = 'none'
+        paper.style.display = 'none'
+        scissors.style.display = 'none'
     }
     
 }
@@ -103,13 +105,17 @@ const scissors = document.getElementById('scissors-logo')
 
     if(score_you == 5){
         player.innerHTML = 'You'
-        overlay.classList.add('active')
-    
-        
+        overlay.classList.add('active')        
+        rock.style.display = 'none'
+        paper.style.display = 'none'
+        scissors.style.display = 'none'
     }
     else if(score_comp == 5){
         player.innerHTML = 'Comp'
-        overlay.classList.add('active')
+        overlay.classList.add('active')        
+        rock.style.display = 'none'
+        paper.style.display = 'none'
+        scissors.style.display = 'none'
     }
 }
 
@@ -147,8 +153,10 @@ const scissors = document.getElementById('scissors-logo')
 
     if(score_you == 5){
         player.innerHTML = "You"
-        overlay.classList.add('active')
-    
+        overlay.classList.add('active')        
+        rock.style.display = 'none'
+        paper.style.display = 'none'
+        scissors.style.display = 'none'
         
     }
     else if(score_comp == 5){
